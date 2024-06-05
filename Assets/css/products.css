@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f7f6; /* Fondo suave para menor cansancio visual */
+    color: #333; /* Texto oscuro para mejor legibilidad */
+}
+.container {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.09); /* Sombra más suave y moderna */
+    padding: 20px;
+}
+.table {
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Espaciado entre filas para una vista más limpia */
+}
+.table thead th {
+    font-size: 16px; /* Fuente más grande para los encabezados */
+    color: #007bff; /* Color azul para dar un toque moderno */
+}
+.table td {
+    background: #FFF; /* Fondo blanco para cada celda */
+    border-top: solid 5px #f4f7f6; /* Borde superior para simular separación entre filas */
+}
+.icons i {
+    font-size: 18px; /* Íconos más grandes */
+    margin-right: 10px; /* Espacio entre íconos */
+    cursor: pointer; /* Cursor de mano para indicar interactividad */
+}
+.btn-success {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra para el botón de agregar */
+}
